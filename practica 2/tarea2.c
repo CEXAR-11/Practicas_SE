@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 
-const int A = 7;
+const int CONSTANTE = 7;
 
 void swap(int *stack_a, int *stack_b) {
     int stack_temp = *stack_a;
