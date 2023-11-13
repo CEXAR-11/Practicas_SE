@@ -1,0 +1,33 @@
+set terminal png
+set output "tarea1_3_CompTiempo.png"
+
+set xlabel "Dimensión matrices cuadradas"
+set ylabel "Tiempo [s]"
+
+set title  "Comparativa Tiempo Paralelización"
+set key left top
+
+plot "tarea1_3.time" using 1:2 with linespoints title "Secuencial", "tarea1_3.time" using 1:3 with linespoints title "Monohebra", "tarea1_3.time" using 1:4 with linespoints title "Bihebra", "tarea1_3.time" using 1:5 with linespoints title "Multihebra"
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+set terminal png
+set output "tarea1_3_CompGanancia.png"
+
+set xlabel "Dimensión matrices cuadradas"
+set ylabel "Ganancia"
+
+set title  "Comparativa Ganancia Paralelización"
+set key left top
+
+plot "tarea1_3.time" using 1:6 with linespoints title "Monohebra", "tarea1_3.time" using 1:7 with linespoints title "Bihebra", "tarea1_3.time" using 1:8 with linespoints title "Multihebra"
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+set terminal png
+set output "tarea1_3_CompEficiencia.png"
+
+set xlabel "Dimensión matrices cuadradas"
+set ylabel "Eficiencia"
+
+set title  "Comparativa Eficiciencia Paralelización"
+set key left top
+# set yrange [0:0.1]
+
+plot "tarea1_3.time" using 1:9 with linespoints title "Monohebra", "tarea1_3.time" using 1:10 with linespoints title "Bihebra", "tarea1_3.time" using 1:11 with linespoints title "Multihebra"
