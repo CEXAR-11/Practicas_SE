@@ -1,0 +1,24 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Mon Nov 27 14:40:16 2023
+[*]
+[dumpfile] "/home/lucas/Escritorio/empotrados/Practicas_SE/practica 4/LED_blink_tb.vcd"
+[dumpfile_mtime] "Mon Nov 27 14:39:55 2023"
+[dumpfile_size] 1120733
+[savefile] "/home/lucas/Escritorio/empotrados/Practicas_SE/practica 4/LED_blink_tb.gtkw"
+[timestart] 40645800
+[size] 1000 600
+[pos] 28 0
+*-15.024525 40695000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] LED_blink_tb.
+[sst_width] 247
+[signals_width] 110
+[sst_expanded] 1
+[sst_vpaned_height] 143
+@28
+LED_blink_tb.clk
+LED_blink_tb.DUT.LED0
+@23
+LED_blink_tb.DUT.data[24:0]
+[pattern_trace] 1
+[pattern_trace] 0
