@@ -1,0 +1,40 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sat Dec 23 19:21:03 2023
+[*]
+[dumpfile] "/home/cesar/Desktop/fsm/fsm_tb.vcd"
+[dumpfile_mtime] "Sat Dec 23 19:04:52 2023"
+[dumpfile_size] 7148556
+[savefile] "/home/cesar/Desktop/fsm/fsm_tb.gtkw"
+[timestart] 1500087400
+[size] 994 600
+[pos] 689 91
+*-16.490047 1500317000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] fsm_tb.
+[treeopen] fsm_tb.DUT.
+[sst_width] 233
+[signals_width] 212
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@28
+fsm_tb.DUT.A
+fsm_tb.DUT.B
+fsm_tb.DUT.Clock
+@24
+fsm_tb.DUT.Cont[2:0]
+@28
+fsm_tb.DUT.ONESEC
+@24
+fsm_tb.DUT.OneSecond.Cont[17:0]
+fsm_tb.DUT.CurrentState[1:0]
+@28
+fsm_tb.DUT.LED0
+fsm_tb.DUT.LED1
+fsm_tb.DUT.LED2
+fsm_tb.DUT.LED3
+fsm_tb.DUT.LED4
+fsm_tb.DUT.LED5
+fsm_tb.DUT.LED6
+fsm_tb.DUT.LED7
+[pattern_trace] 1
+[pattern_trace] 0
